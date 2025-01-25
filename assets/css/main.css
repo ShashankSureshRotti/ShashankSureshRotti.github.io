@@ -52,12 +52,16 @@ svg,img { max-width: 100%; height: auto; }
 .ds-banner section{ padding-left: 70px; padding-right: 100px; margin-bottom: 30px; /* Add spacing between sections */}
 .ds-banner section h1 span{ display: block; text-transform: uppercase; letter-spacing: 1px;  font-weight: 500; font-size: 16px; padding-bottom: 1px; }
 .ds-banner section h1{ font-weight: 600; font-size: 48px; line-height: 60px; color: #000; }
-.ds-numbervalulist{ list-style: none; display: flex; align-items: center; flex-wrap: wrap; margin: 0; padding: 0; margin-top: 2px; }
+.ds-numbervalulist{ list-style: none; display: flex; align-items: center; flex-wrap: wrap; margin: 0; padding: 0;}
 .work-experience,
 .education {
   margin-top: 10px; /* Adds consistent spacing between sections */
 }
-.ds-numbervalulist li{ margin-right: 60px; margin-bottom: 15px; /* Adds spacing between list items */}
+.work-experience h2,
+.education h2 {
+  margin-bottom: 10px; /* Reduce the gap between the heading and the list */
+}
+.ds-numbervalulist li{ margin-right: 60px; margin-bottom: 10px; /* Adds spacing between list items */}
 .ds-numbervalulist li:last-child{ margin-right: 0; }
 .ds-numbervalulist strong{ display: block; color: #F26464; font-size: 36px; font-weight: 800; }
 .ds-numbervalulist span{ font-size: 16px; letter-spacing: 1px; margin-top: 5px; /* Adjust spacing between strong and span */}
