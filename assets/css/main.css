@@ -56,7 +56,6 @@ svg,img { max-width: 100%; height: auto; }
 .work-experience,
 .education {
   margin-top: 10px; /* Adds consistent spacing between sections */
-  margin-bottom: 5px;
 }
 .ds-numbervalulist li{ margin-right: 60px; margin-bottom: 15px; /* Adds spacing between list items */}
 .ds-numbervalulist li:last-child{ margin-right: 0; }
